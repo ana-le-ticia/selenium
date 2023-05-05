@@ -43,7 +43,5 @@ search_bar = browser.find_element(By.XPATH,search_bar_path)
 search_bar.send_keys('LuizHenriqueVitorino')
 search_bar.send_keys(Keys.ENTER)
 
-print('pasou')
-
-# browser.quit()
+browser.quit()
 
